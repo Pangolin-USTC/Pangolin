@@ -1,6 +1,6 @@
 {
-  "name": "pangolin",
-  "homepage": "https://pangolin-ustc.github.io/pangolin",
+  "name": "Pangolin",
+  "homepage": "https://pangolin-ustc.github.io/Pangolin",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
