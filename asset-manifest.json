@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/Pangolin/static/css/main.073c9b0a.css",
-    "main.js": "/Pangolin/static/js/main.c842b8b3.js",
-    "static/js/787.2e5f04eb.chunk.js": "/Pangolin/static/js/787.2e5f04eb.chunk.js",
-    "static/media/logo.svg": "/Pangolin/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.js": "/Pangolin/static/js/main.07bc8e9c.js",
+    "static/js/377.eab27133.chunk.js": "/Pangolin/static/js/377.eab27133.chunk.js",
+    "static/media/logo.svg": "/Pangolin/static/media/logo.034ef726eb08f413c8e9ff1b0abe7414.svg",
     "index.html": "/Pangolin/index.html",
-    "main.073c9b0a.css.map": "/Pangolin/static/css/main.073c9b0a.css.map",
-    "main.c842b8b3.js.map": "/Pangolin/static/js/main.c842b8b3.js.map",
-    "787.2e5f04eb.chunk.js.map": "/Pangolin/static/js/787.2e5f04eb.chunk.js.map"
+    "main.07bc8e9c.js.map": "/Pangolin/static/js/main.07bc8e9c.js.map",
+    "377.eab27133.chunk.js.map": "/Pangolin/static/js/377.eab27133.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.c842b8b3.js"
+    "static/js/main.07bc8e9c.js"
   ]
 }
