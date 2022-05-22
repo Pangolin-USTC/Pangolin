@@ -1,19 +1,36 @@
 import * as React from "react"
+import { Routes, Route, Link } from "react-router-dom";
 import {
   ChakraProvider,
   Box,
   Text,
-  Link,
+  Flex,
+  Spacer,
+  Center,
   VStack,
   Code,
   Grid,
-  theme,
+  theme, HStack,
 } from "@chakra-ui/react"
+import Header from "./components/header"
+import RenderPage from "./containers/RenderPage"
+import LoginPage from "./containers/LoginPage"
+import IndexPage from "./containers/IndexPage"
+import EditorPage from "./containers/EditorPage"
+import FilePage from "./containers/FilePage"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { Logo } from "./Logo"
 
 export const App = () => (
   <ChakraProvider theme={theme}>
+    <Header/>
+    <Routes>
+      <Route path="/" element={<IndexPage />} />
+      <Route path="/home" element={<FilePage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/editor" element={<EditorPage />} />
+      <Route path="/Render" element={<RenderPage />} />
+    </Routes>
     <Box textAlign="center" fontSize="xl">
       <Grid minH="100vh" p={3}>
         <ColorModeSwitcher justifySelf="flex-end" />
@@ -22,15 +39,12 @@ export const App = () => (
           <Text>
             Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
           </Text>
-          <Link
+          <Text
             color="teal.500"
-            href="https://chakra-ui.com"
             fontSize="2xl"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             Learn Chakra
-          </Link>
+          </Text>
         </VStack>
       </Grid>
     </Box>

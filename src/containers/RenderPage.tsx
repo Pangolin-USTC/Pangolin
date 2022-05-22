@@ -14,7 +14,7 @@ import {
 } from "@chakra-ui/react"
 import {GrGrid} from "react-icons/all";
 
-export default function filesystem(){
+export default function RenderPage(){
     return (
         <Grid
             h={'100px'}
@@ -22,7 +22,7 @@ export default function filesystem(){
             gap={4}
         >
             <Text>
-                filesystem
+                RenderPage
             </Text>
         </Grid>
 
