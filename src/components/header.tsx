@@ -22,7 +22,7 @@ export default function Header(){
             templateColumns={'repeat(12,1fr)'}
             gap={4}
             borderBottom ={"2px"}
-            borderBottomColor={"#e8e8e8"}
+            borderBottomColor={"blackAlpha.200"}
             pr={"20px"}
         >
             <GridItem colSpan={2} >
@@ -34,7 +34,7 @@ export default function Header(){
                         to='/'
                         bgGradient='linear(to-l, teal.400, blue.400)'
                         bgClip='text'
-                        fontSize={"36px"}
+                        fontSize={"30px"}
                         fontWeight={"bold"}
                         fontFamily={"sans-serif"}
                         _focus={{
